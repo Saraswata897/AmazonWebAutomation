@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-26T11:37:13 IST" name="AmazonProject" finished-at="2025-06-26T11:38:08 IST" duration-ms="54558">
+    <groups>
+    </groups>
+    <test started-at="2025-06-26T11:37:13 IST" name="chromeTest" finished-at="2025-06-26T11:37:41 IST" duration-ms="27748">
+      <class name="testCases.WashingMachineSearch">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testCases.WashingMachineSearch@ebb6851]" started-at="2025-06-26T11:37:13 IST" name="setUp" finished-at="2025-06-26T11:37:18 IST" duration-ms="4613" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="searchWashingMachine(java.lang.String)[pri:0, instance:testCases.WashingMachineSearch@ebb6851]" started-at="2025-06-26T11:37:19 IST" name="searchWashingMachine" data-provider="searchData" finished-at="2025-06-26T11:37:22 IST" duration-ms="3055" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Washing Machine]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchWashingMachine -->
+        <test-method signature="sortPriceLowToHigh()[pri:1, instance:testCases.WashingMachineSearch@ebb6851]" started-at="2025-06-26T11:37:22 IST" name="sortPriceLowToHigh" finished-at="2025-06-26T11:37:23 IST" depends-on-methods="testCases.WashingMachineSearch.searchWashingMachine" duration-ms="1580" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortPriceLowToHigh -->
+        <test-method signature="applyFilters()[pri:2, instance:testCases.WashingMachineSearch@ebb6851]" started-at="2025-06-26T11:37:23 IST" name="applyFilters" finished-at="2025-06-26T11:37:35 IST" depends-on-methods="testCases.WashingMachineSearch.searchWashingMachine, testCases.WashingMachineSearch.sortPriceLowToHigh" duration-ms="12254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applyFilters -->
+        <test-method signature="addFirstItemToCart()[pri:3, instance:testCases.WashingMachineSearch@ebb6851]" started-at="2025-06-26T11:37:35 IST" name="addFirstItemToCart" finished-at="2025-06-26T11:37:36 IST" depends-on-methods="testCases.WashingMachineSearch.applyFilters" duration-ms="671" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addFirstItemToCart -->
+        <test-method signature="goToCart()[pri:4, instance:testCases.WashingMachineSearch@ebb6851]" started-at="2025-06-26T11:37:36 IST" name="goToCart" finished-at="2025-06-26T11:37:38 IST" depends-on-methods="testCases.WashingMachineSearch.addFirstItemToCart" duration-ms="1887" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToCart -->
+        <test-method signature="increaseQuantity()[pri:5, instance:testCases.WashingMachineSearch@ebb6851]" started-at="2025-06-26T11:37:38 IST" name="increaseQuantity" finished-at="2025-06-26T11:37:39 IST" depends-on-methods="testCases.WashingMachineSearch.goToCart" duration-ms="1117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- increaseQuantity -->
+        <test-method signature="goBack()[pri:6, instance:testCases.WashingMachineSearch@ebb6851]" started-at="2025-06-26T11:37:39 IST" name="goBack" finished-at="2025-06-26T11:37:41 IST" duration-ms="1364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goBack -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.WashingMachineSearch@ebb6851]" started-at="2025-06-26T11:37:41 IST" name="tearDown" finished-at="2025-06-26T11:37:41 IST" duration-ms="251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.WashingMachineSearch -->
+    </test> <!-- chromeTest -->
+    <test started-at="2025-06-26T11:37:41 IST" name="edgeTest" finished-at="2025-06-26T11:38:08 IST" duration-ms="26785">
+      <class name="testCases.WashingMachineSearch">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testCases.WashingMachineSearch@119020fb]" started-at="2025-06-26T11:37:41 IST" name="setUp" finished-at="2025-06-26T11:37:47 IST" duration-ms="5995" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="searchWashingMachine(java.lang.String)[pri:0, instance:testCases.WashingMachineSearch@119020fb]" started-at="2025-06-26T11:37:47 IST" name="searchWashingMachine" data-provider="searchData" finished-at="2025-06-26T11:37:51 IST" duration-ms="3831" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Washing Machine]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchWashingMachine -->
+        <test-method signature="sortPriceLowToHigh()[pri:1, instance:testCases.WashingMachineSearch@119020fb]" started-at="2025-06-26T11:37:51 IST" name="sortPriceLowToHigh" finished-at="2025-06-26T11:37:52 IST" depends-on-methods="testCases.WashingMachineSearch.searchWashingMachine" duration-ms="1625" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortPriceLowToHigh -->
+        <test-method signature="applyFilters()[pri:2, instance:testCases.WashingMachineSearch@119020fb]" started-at="2025-06-26T11:37:53 IST" name="applyFilters" finished-at="2025-06-26T11:38:02 IST" depends-on-methods="testCases.WashingMachineSearch.searchWashingMachine, testCases.WashingMachineSearch.sortPriceLowToHigh" duration-ms="9485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applyFilters -->
+        <test-method signature="addFirstItemToCart()[pri:3, instance:testCases.WashingMachineSearch@119020fb]" started-at="2025-06-26T11:38:02 IST" name="addFirstItemToCart" finished-at="2025-06-26T11:38:03 IST" depends-on-methods="testCases.WashingMachineSearch.applyFilters" duration-ms="637" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addFirstItemToCart -->
+        <test-method signature="goToCart()[pri:4, instance:testCases.WashingMachineSearch@119020fb]" started-at="2025-06-26T11:38:03 IST" name="goToCart" finished-at="2025-06-26T11:38:05 IST" depends-on-methods="testCases.WashingMachineSearch.addFirstItemToCart" duration-ms="2391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToCart -->
+        <test-method signature="increaseQuantity()[pri:5, instance:testCases.WashingMachineSearch@119020fb]" started-at="2025-06-26T11:38:05 IST" name="increaseQuantity" finished-at="2025-06-26T11:38:06 IST" depends-on-methods="testCases.WashingMachineSearch.goToCart" duration-ms="1108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- increaseQuantity -->
+        <test-method signature="goBack()[pri:6, instance:testCases.WashingMachineSearch@119020fb]" started-at="2025-06-26T11:38:06 IST" name="goBack" finished-at="2025-06-26T11:38:07 IST" duration-ms="1098" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goBack -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.WashingMachineSearch@119020fb]" started-at="2025-06-26T11:38:07 IST" name="tearDown" finished-at="2025-06-26T11:38:08 IST" duration-ms="373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.WashingMachineSearch -->
+    </test> <!-- edgeTest -->
+  </suite> <!-- AmazonProject -->
+</testng-results>
